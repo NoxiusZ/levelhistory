@@ -573,8 +573,8 @@ void GDHistoryProvider::parseResult(std::string &result, std::function<void(Leve
 
         std::ofstream gmdfile;
 
-        std::string file = Mod::get()->getSaveDir().generic_string();
-        std::string _file = fmt::format("{}/temp.gmd", file);
+        std::string path = Mod::get()->getSaveDir().generic_string();
+        std::string _file = fmt::format("{}/temp.gmd", path);
 
         gmdfile.open (_file);
         gmdfile << result;
