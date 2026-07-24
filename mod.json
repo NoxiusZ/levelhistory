@@ -12,7 +12,7 @@
 	"developer": "dogotrigger",
 	"description": "Look and play through deleted and outdated levels using GDHistory or other sources!",
 	"dependencies": {
-		"hjfod.gmd-api": ">=1.5.0"
+		"hjfod.gmd-api": ">=1.5.0",
 		"geode.node.ids": ">=1.22.0"
 	},
 	"repository": "https://github.com/NoxiusZ/levelhistory",
