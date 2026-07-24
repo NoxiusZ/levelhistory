@@ -18,7 +18,7 @@ protected:
 
     HttpMethod _method = MGet;
 
-    geode::async::TaskHolder<geode::utils::web:WebResponse> _listener;
+    geode::async::TaskHolder<geode::utils::web::WebResponse> _listener;
 
 public:
     GeodeNetwork();
